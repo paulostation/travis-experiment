@@ -6,7 +6,7 @@ install:
   - echo install
 
 script:
-  - echo script
+  - echo skip ci
 
 notifications:
   email: false
