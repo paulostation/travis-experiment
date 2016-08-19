@@ -1,5 +1,3 @@
-os: osx
-
 matrix:
     include:
         - osx_image: xcode7.1
