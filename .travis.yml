@@ -1,14 +1,5 @@
-matrix:
-    include:
-        - os: osx
-          osx_image: xcode7.1
-          env: image=xcode7.1
-        - os: osx
-          osx_image: xcode7
-          env: image=xcode7
-
-install:
-    - ls -d1 /usr/local/Cellar/*/*/
-    - "cat /usr/local/var/postgres/PG_VERSION || true"
-    - echo $image
-script: true
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ - rbx-2
